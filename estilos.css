@@ -1,0 +1,96 @@
+body {
+  background-color: #c2d6fc;
+  color: #0051ff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  width: 80%;
+  height: auto;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  text-align: justify;
+}
+
+.column-list {
+  columns: 2;
+  /* Divide la lista en 2 columnas */
+  column-width: 50%;
+  /* Ancho de cada columna */
+  margin: auto;
+  text-align: center;
+  list-style: none;
+}
+
+h1 {
+  font-family: 'Coiny', cursive;
+  text-align: center;
+  color: #8400ff;
+}
+
+h3 {
+  text-align: center;
+  font-size: 1.5em;
+  font-family: 'Poppins', sans-serif;
+}
+
+.img1 {
+  width: 60%;
+  height: 300px;
+  border-radius: 50%;
+  padding: 4%;
+}
+
+
+.img5,
+.img6,
+.img7,
+.img8 {
+  height: auto;
+  max-width: 70%;
+  border-radius: 25px;
+  padding-bottom: 10px;
+}
+
+.Evelyn,
+.Regalo,
+.caos {
+  height: 500px;
+  width: 300px;
+  border-radius: 25px;
+}
+
+.img2,
+.img3,
+.img4 {
+  width: 60px;
+  height: 60px;
+  border-radius: 15px;
+}
+
+table {
+  justify-content: center;
+  align-items: center;
+  max-width: 80%;
+  height: auto;
+  background-color: #d6c4ff;
+  margin: auto;
+  text-align: justify;
+}
+
+table th,
+table td {
+  border: 3px solid #8400ff;
+  padding: 14px;
+  align-items: center;
+}
+
+table tr {
+  text-align: center;
+}
+
